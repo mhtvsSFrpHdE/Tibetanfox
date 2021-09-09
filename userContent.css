@@ -7,7 +7,7 @@
 
 /* Select any element */
 /* not: Some Firefox radio button rely on image tag border-radius: 100% */
-* :not(image) {
+* :not(radio > image) {
   border-radius: 0px !important;
 }
 
