@@ -1,0 +1,35 @@
+/* Tibetanfox Begin */
+/* Version: 92.0 (64-bit) */
+
+/*
+ * Browser UI part
+ */
+ 
+ /* Main UI */
+:root {
+  /* Browser tab */
+  --tab-border-radius: 0px !important;
+  /* Search or address textbox  */
+  --toolbarbutton-border-radius: 0px !important;
+  /* Setting menu mouse hover on option */
+  --arrowpanel-menuitem-border-radius: 0px !important;
+  /* Setting menu overlay border */
+  --arrowpanel-border-radius: 0px !important;
+}
+
+/* Right click menu */
+menupopup {
+  --panel-border-radius: 0px !important;
+}
+
+/* Setting menu scale level */
+.toolbarbutton-icon {
+  border-radius: 0px !important;
+}
+
+/* Confirm close multiple tabs dialog */
+.dialogBox {
+  border-radius: 0px !important;
+}
+
+/* Tibetanfox End */

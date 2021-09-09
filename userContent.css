@@ -1,0 +1,14 @@
+/* Tibetanfox Begin */
+/* Version: 92.0 (64-bit) */
+
+/*
+ * Browser UI part
+ */
+
+/* Select any element */
+/* not: Some Firefox radio button rely on image tag border-radius: 100% */
+* :not(image) {
+  border-radius: 0px !important;
+}
+
+/* Tibetanfox End */
