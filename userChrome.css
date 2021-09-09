@@ -22,8 +22,11 @@ menupopup {
   --panel-border-radius: 0px !important;
 }
 
-/* Other use border-radius */
-* {
+/* Other use border-radius
+ * Exclude:
+ *     Switch button
+ */
+* :not(.protections-popup-tp-switch) {
   border-radius: 0px !important;
 }
 
