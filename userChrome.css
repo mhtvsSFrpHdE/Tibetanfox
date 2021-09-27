@@ -1,10 +1,10 @@
 /* Tibetanfox Begin */
-/* Version: 92.0 (64-bit) */
+/* Version: 92.0.1 (64-bit) */
 
 /*
  * Browser UI part
  */
- 
+
 /* Main UI */
 :root {
   /* Browser tab */
@@ -24,9 +24,14 @@ menupopup {
 
 /* Other use border-radius
  * Exclude:
- *     Switch button
+ *     Switch button(.protections-popup-tp-switch)
+ *     Download progress circle(toolbarbutton and its parent container)
  */
-* :not(.protections-popup-tp-switch) {
+*
+  /* Switch button */
+  :not(.protections-popup-tp-switch)
+  /* Download progress circle */
+  :not(toolbarbutton):not(hbox):not(toolbar):not(vbox):not(toolbox):not(box) {
   border-radius: 0px !important;
 }
 
