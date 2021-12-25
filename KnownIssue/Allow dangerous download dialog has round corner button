@@ -1,5 +1,0 @@
-When downloading files blocked by security scan, Firefox requires right-clicking on download item then click Allow.
-
-After click Allow, a dialog shows and contains rounded corner buttons.
-
-Because of 5802e1b, any dialog is possible to have such buttons.
