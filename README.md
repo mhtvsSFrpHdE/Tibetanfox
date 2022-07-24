@@ -5,7 +5,7 @@ Firefox, but so square.
 
 ## Install
 Download file to  
-`AppData\Roaming\Mozilla\Firefox\Profiles\s84i0rhx.default\chrome`  
+`AppData\Roaming\Mozilla\Firefox\Profiles\<your profile name>\chrome`  
 Open `about:config` in Firefox set this to true  
 `toolkit.legacyUserProfileCustomizations.stylesheets`
 
