@@ -3,6 +3,13 @@
 # Tibetanfox
 Firefox, but so square.
 
+## Install
+Download file to  
+`AppData\Roaming\Mozilla\Firefox\Profiles\s84i0rhx.default\chrome`  
+Open `about:config` in Firefox set this to true  
+`toolkit.legacyUserProfileCustomizations.stylesheets`
+
+## What's this
 For people don't want those rounded rectangle design styles.
 
 Removes any border-radius properties on Firefox UI by using `userChrome.css`,  
