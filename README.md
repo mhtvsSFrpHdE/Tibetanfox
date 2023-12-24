@@ -6,6 +6,7 @@ Firefox, but so square.
 ## Install
 Download file to  
 `AppData\Roaming\Mozilla\Firefox\Profiles\<your profile name>\chrome`  
+You need to create chrome folder manually.  
 Open `about:config` in Firefox set this to true  
 `toolkit.legacyUserProfileCustomizations.stylesheets`
 
